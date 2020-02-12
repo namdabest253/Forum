@@ -1,0 +1,22 @@
+#nav{
+  background-color: black;
+  width: 100%;
+  height: 20px;
+  padding: 20px 0px;
+}
+
+
+#nav > a{
+  background-color: black;
+  color: white;
+  height: 20px;
+  text-decoration: none;
+}
+
+#nav > a:hover{
+  background-color: darkorange;
+}
+
+#postsSection:nth-child(odd){
+  background-color: darkgrey;
+}
